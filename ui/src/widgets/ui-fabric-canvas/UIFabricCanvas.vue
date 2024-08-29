@@ -20,7 +20,7 @@
   </template>
   
   <script>
-    import { fabric } from 'fabric'
+    import * as fabric from 'fabric'
 
     export default {
     data() {

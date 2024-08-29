@@ -16,6 +16,7 @@ import UITable from './ui-table/UITable.vue'
 import UITemplate from './ui-template/UITemplate.vue'
 import UIText from './ui-text/UIText.vue'
 import UITextInput from './ui-text-input/UITextInput.vue'
+import UIFabricCanvas from './ui-fabric-canvas/UIFabricCanvas.vue'
 
 // Named exports for use in other components
 export {
@@ -36,7 +37,8 @@ export {
     UITable,
     UITemplate,
     UIText,
-    UITextInput
+    UITextInput,
+    UIFabricCanvas
 }
 
 // Component helpers
@@ -61,5 +63,6 @@ export default {
     'ui-table': UITable,
     'ui-template': UITemplate,
     'ui-text-input': UITextInput,
-    'ui-text': UIText
+    'ui-text': UIText,
+    'ui-fabric-canvas': UIFabricCanvas
 }

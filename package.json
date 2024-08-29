@@ -1,5 +1,5 @@
 {
-    "name": "@flowfuse/node-red-dashboard",
+    "name": "node-red-dashboard-2",
     "version": "1.14.0",
     "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
     "keywords": [
@@ -139,7 +139,8 @@
             "ui-markdown": "nodes/widgets/ui_markdown.js",
             "ui-template": "nodes/widgets/ui_template.js",
             "ui-event": "nodes/widgets/ui_event.js",
-            "ui-control": "nodes/widgets/ui_control.js"
+            "ui-control": "nodes/widgets/ui_control.js",
+            "ui-fabric-canvas": "nodes/widgets/ui_fabric_canvas.js"
         }
     },
     "overrides": {
@@ -148,5 +149,14 @@
         },
         "sharp": "0.32.6",
         "sharp-ico": "0.1.5"
+    },
+    "node-red-dashboard-2": {
+        "version": "1.0.0",
+        "widgets": {
+            "ui-fabric-canvas": {
+                "output": "ui-fabric-canvas.umd.js",
+                "component": "UIFabricCanvas"
+            }
+        }
     }
 }
